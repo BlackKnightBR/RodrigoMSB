@@ -1,4 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Gidugu|Oxygen|Roboto);
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
 
 html,
 body {
@@ -87,6 +96,14 @@ a {
   .bksGame {
     width: 33.333%;
   }
+}
+
+.contacts {
+  border: 1px solid lightgrey;
+  padding: 6px;
+  border-radius: 12px;
+  box-shadow: 3px 3px grey;
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 550px) {
