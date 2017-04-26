@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Gidugu|Oxygen|Roboto);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  transition: 0.5s;
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.personalidade {
+  text-align: right;
+}
+
+.proprietario {
+  font-size: 2.5em;
+}
+
+.funcao {
+  font-family: "Oxygen", sans-serif;
+}
+
+.categoria {
+  font-family: "Gidugu", sans-serif;
+}
+
+.titulo {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.subTitulo {
+  font-size: 80%;
+  text-align: center;
+}
+
+.box {
+  min-height: 150px;
+}
+
+.logo1 {
+  width: 60%;
+  height: 80%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
+
+.logo {
+  width: 60%;
+  height: 80%;
+  border: 2px solid black;
+  box-shadow: 3px 3px lightgrey;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 450px) {
+  .logomarca,
+  .personalidade {
+    width: 50%;
+  }
+
+  .bks-br,
+  .gaf,
+  .bksGame {
+    width: 33.333%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bks-br {
+    width: 100%;
+  }
+
+  .personalidade {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container,
+  hr {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner {
+    margin-left: 10%;
+  }
+}
