@@ -85,9 +85,6 @@ a {
   border-radius: 12px;
 }
 
-.banner {
-  margin-right: 50%;
-}
 
 @media screen and (min-width: 450px) {
   .logomarca,
@@ -128,7 +125,4 @@ a {
     margin-right: auto;
   }
 
-  .banner {
-    margin-left: 10%;
-  }
 }
