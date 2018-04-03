@@ -85,6 +85,10 @@ a {
   border-radius: 12px;
 }
 
+.navegador {
+  list-style: none;
+}
+
 
 @media screen and (min-width: 450px) {
   .logomarca,
@@ -129,6 +133,10 @@ a {
 
   .personalidade {
     text-align: center;
+  }
+
+  .areasNav {
+    font-size: 20px;
   }
 }
 
