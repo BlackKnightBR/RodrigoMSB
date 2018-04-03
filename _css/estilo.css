@@ -107,6 +107,21 @@ a {
   margin-bottom: 15px;
 }
 
+.paragrafos{
+    margin-left: 12px;
+    margin-right: 2px;
+}
+
+.referencias:hover {
+    color: blue;
+    font-style: italic;
+}
+
+#curriculoRodrigo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 550px) {
   .bks-br {
     width: 100%;
